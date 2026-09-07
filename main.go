@@ -27,5 +27,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Successfully generated RAR: %s\n", *outputFlag)
+	fmt.Printf("Successfully generated uncompressed RAR: %s\n", *outputFlag)
 }
